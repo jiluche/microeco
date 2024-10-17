@@ -1315,7 +1315,7 @@ trans_diff <- R6Class(classname = "trans_diff",
 					theme(axis.line.x = element_line(color = "grey60", linetype = "solid", lineend = "square"))
 				
 				if(add_sig){
-					p <- p + geom_text(aes(x = Taxa, y = add_sig_position, label = Significance), data = use_data, size = add_sig_text_size)
+					p <- p + geom_text(aes(x = Taxa, y = add_sig_position, label = Significance), data = use_data, size = add_sig_text_size, family = "Times New Roman")
 				}
 				
 				if(coord_flip){
