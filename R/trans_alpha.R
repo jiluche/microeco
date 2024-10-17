@@ -878,7 +878,7 @@ trans_alpha <- R6Class(classname = "trans_alpha",
 									xmin = x_min, 
 									xmax = x_max,
 									textsize = add_sig_text_size,
-									color = "black"
+									color = "red"
 								)
 							}else{
 								if(is.null(by_group)){
